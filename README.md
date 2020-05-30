@@ -18,7 +18,7 @@
             
 2. Chạy demo
 - demo trên console:
-    - cd đến thư mục demo rồi chạy file demo_console.py
+    - cd đến thư mục src/demo rồi chạy file demo_console.py
 - demo trên web:
-    - cd đến thư mục demo, chạy command line
+    - cd đến thư mục src/demo, chạy command line
         ```streamlit run demo_web.py``` 
