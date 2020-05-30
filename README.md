@@ -10,7 +10,8 @@
         - nếu chạy lần đầu, download thêm data punkt của thư viện nltk: 
             -   ```python
                 import nltk
-                nltk.download('punkt')```
+                nltk.download('punkt')
+                ```
                 
         - nếu muốn chạy file demo_web: install thêm streamlit:
             - ```pip install streamlit```
