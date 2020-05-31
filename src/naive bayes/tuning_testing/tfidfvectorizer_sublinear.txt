@@ -1,0 +1,700 @@
+* min_df = 1, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9495259961487187, valid_acc = 0.8907475943745374, training_time = 0.09510469436645508
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.89      0.93      0.91      4175
+        Doi song       0.90      0.95      0.93      2527
+        Khoa hoc       0.98      0.87      0.92      1456
+      Kinh doanh       0.94      0.93      0.93      2041
+       Phap luat       0.96      0.96      0.96      3094
+        Suc khoe       0.94      0.96      0.95      2707
+        The gioi       0.97      0.95      0.96      2318
+        The thao       1.00      0.97      0.98      4238
+         Van hoa       0.97      0.98      0.97      2464
+         Vi tinh       0.97      0.96      0.97      1984
+
+        accuracy                           0.95     27004
+       macro avg       0.95      0.95      0.95     27004
+    weighted avg       0.95      0.95      0.95     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.76      0.85      0.80      1044
+        Doi song       0.82      0.89      0.85       632
+        Khoa hoc       0.88      0.69      0.77       364
+      Kinh doanh       0.89      0.84      0.86       511
+       Phap luat       0.93      0.90      0.91       774
+        Suc khoe       0.90      0.92      0.91       677
+        The gioi       0.93      0.91      0.92       580
+        The thao       0.99      0.96      0.98      1060
+         Van hoa       0.90      0.94      0.92       616
+         Vi tinh       0.96      0.90      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.90      0.88      0.89      6755
+    weighted avg       0.89      0.89      0.89      6755
+** min_df = 2, max_df = 0.1, alpha = 0.05, train_acc = 0.9373426159087542, valid_acc = 0.8934122871946706, training_time = 0.05936741828918457
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.89      0.89      0.89      4175
+        Doi song       0.89      0.93      0.91      2527
+        Khoa hoc       0.93      0.87      0.90      1456
+      Kinh doanh       0.91      0.93      0.92      2041
+       Phap luat       0.95      0.95      0.95      3094
+        Suc khoe       0.93      0.96      0.95      2707
+        The gioi       0.96      0.94      0.95      2318
+        The thao       1.00      0.96      0.98      4238
+         Van hoa       0.95      0.97      0.96      2464
+         Vi tinh       0.96      0.95      0.96      1984
+
+        accuracy                           0.94     27004
+       macro avg       0.94      0.94      0.94     27004
+    weighted avg       0.94      0.94      0.94     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.82      0.81      1044
+        Doi song       0.82      0.88      0.85       632
+        Khoa hoc       0.82      0.76      0.79       364
+      Kinh doanh       0.87      0.87      0.87       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.92       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.90      0.94      0.92       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.89      0.89      0.89      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 3, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9323063249888905, valid_acc = 0.8925240562546262, training_time = 0.054414987564086914
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.88      0.88      0.88      4175
+        Doi song       0.89      0.92      0.91      2527
+        Khoa hoc       0.93      0.87      0.90      1456
+      Kinh doanh       0.90      0.92      0.91      2041
+       Phap luat       0.94      0.95      0.95      3094
+        Suc khoe       0.93      0.95      0.94      2707
+        The gioi       0.95      0.93      0.94      2318
+        The thao       1.00      0.96      0.98      4238
+         Van hoa       0.94      0.96      0.95      2464
+         Vi tinh       0.96      0.95      0.95      1984
+
+        accuracy                           0.93     27004
+       macro avg       0.93      0.93      0.93     27004
+    weighted avg       0.93      0.93      0.93     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.81      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.81      0.77      0.79       364
+      Kinh doanh       0.86      0.87      0.86       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.92      0.92      0.92       677
+        The gioi       0.91      0.92      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.90      0.94      0.92       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.89      0.89      0.89      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 4, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9297141164271959, valid_acc = 0.8911917098445595, training_time = 0.05164766311645508
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.88      0.87      0.88      4175
+        Doi song       0.88      0.92      0.90      2527
+        Khoa hoc       0.92      0.87      0.89      1456
+      Kinh doanh       0.89      0.92      0.91      2041
+       Phap luat       0.94      0.95      0.94      3094
+        Suc khoe       0.93      0.95      0.94      2707
+        The gioi       0.95      0.93      0.94      2318
+        The thao       1.00      0.96      0.98      4238
+         Van hoa       0.94      0.96      0.95      2464
+         Vi tinh       0.95      0.95      0.95      1984
+
+        accuracy                           0.93     27004
+       macro avg       0.93      0.93      0.93     27004
+    weighted avg       0.93      0.93      0.93     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.81      0.76      0.78       364
+      Kinh doanh       0.85      0.87      0.86       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.92       677
+        The gioi       0.91      0.92      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.90      0.94      0.92       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.89      0.89      0.89      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 5, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9274181602725522, valid_acc = 0.8914877868245744, training_time = 0.04961228370666504
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.87      0.87      0.87      4175
+        Doi song       0.88      0.92      0.90      2527
+        Khoa hoc       0.91      0.86      0.89      1456
+      Kinh doanh       0.89      0.92      0.90      2041
+       Phap luat       0.94      0.95      0.94      3094
+        Suc khoe       0.93      0.95      0.94      2707
+        The gioi       0.95      0.93      0.94      2318
+        The thao       1.00      0.96      0.98      4238
+         Van hoa       0.93      0.96      0.95      2464
+         Vi tinh       0.95      0.95      0.95      1984
+
+        accuracy                           0.93     27004
+       macro avg       0.93      0.93      0.93     27004
+    weighted avg       0.93      0.93      0.93     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.81      0.76      0.79       364
+      Kinh doanh       0.85      0.88      0.86       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.92       677
+        The gioi       0.91      0.92      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.89      0.94      0.92       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.89      0.89      0.89      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 6, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9258998666864168, valid_acc = 0.89059955588453, training_time = 0.04849600791931152
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.87      0.87      0.87      4175
+        Doi song       0.88      0.92      0.90      2527
+        Khoa hoc       0.91      0.86      0.89      1456
+      Kinh doanh       0.88      0.92      0.90      2041
+       Phap luat       0.94      0.95      0.94      3094
+        Suc khoe       0.93      0.95      0.94      2707
+        The gioi       0.95      0.93      0.94      2318
+        The thao       1.00      0.96      0.98      4238
+         Van hoa       0.93      0.96      0.94      2464
+         Vi tinh       0.95      0.94      0.95      1984
+
+        accuracy                           0.93     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.93      0.93      0.93     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.80      0.76      0.78       364
+      Kinh doanh       0.85      0.88      0.87       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.92       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.89      0.94      0.91       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.89      0.89      0.89      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 7, max_df = 0.15000000000000002, alpha = 0.1, train_acc = 0.9203821656050956, valid_acc = 0.889859363434493, training_time = 0.04696178436279297
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.86      0.86      0.86      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.91      0.84      0.88      1456
+      Kinh doanh       0.88      0.91      0.89      2041
+       Phap luat       0.93      0.94      0.94      3094
+        Suc khoe       0.92      0.95      0.93      2707
+        The gioi       0.94      0.92      0.93      2318
+        The thao       1.00      0.95      0.98      4238
+         Van hoa       0.92      0.96      0.94      2464
+         Vi tinh       0.95      0.94      0.94      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.82      0.75      0.78       364
+      Kinh doanh       0.86      0.87      0.86       511
+       Phap luat       0.91      0.91      0.91       774
+        Suc khoe       0.91      0.92      0.92       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.88      0.93      0.91       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.89      0.88      0.89      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 8, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9226781217597393, valid_acc = 0.8889711324944486, training_time = 0.0458829402923584
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.87      0.86      0.87      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.91      0.85      0.88      1456
+      Kinh doanh       0.88      0.91      0.89      2041
+       Phap luat       0.93      0.95      0.94      3094
+        Suc khoe       0.93      0.95      0.94      2707
+        The gioi       0.95      0.92      0.93      2318
+        The thao       1.00      0.96      0.98      4238
+         Van hoa       0.92      0.96      0.94      2464
+         Vi tinh       0.95      0.94      0.95      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.82      0.76      0.79       364
+      Kinh doanh       0.85      0.88      0.86       511
+       Phap luat       0.91      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.92       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.88      0.93      0.91       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.89      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 9, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.921382017478892, valid_acc = 0.8879348630643967, training_time = 0.044991254806518555
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.87      0.86      0.86      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.91      0.85      0.88      1456
+      Kinh doanh       0.88      0.91      0.89      2041
+       Phap luat       0.93      0.95      0.94      3094
+        Suc khoe       0.92      0.95      0.94      2707
+        The gioi       0.94      0.92      0.93      2318
+        The thao       1.00      0.95      0.98      4238
+         Van hoa       0.92      0.95      0.94      2464
+         Vi tinh       0.95      0.94      0.95      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.82      0.88      0.85       632
+        Khoa hoc       0.82      0.76      0.79       364
+      Kinh doanh       0.84      0.87      0.86       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.91       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.88      0.93      0.90       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 10, max_df = 0.15000000000000002, alpha = 0.1, train_acc = 0.9157161901940454, valid_acc = 0.8877868245743893, training_time = 0.04514122009277344
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.86      0.85      0.85      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.90      0.83      0.87      1456
+      Kinh doanh       0.87      0.90      0.89      2041
+       Phap luat       0.92      0.94      0.93      3094
+        Suc khoe       0.92      0.95      0.93      2707
+        The gioi       0.94      0.91      0.93      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.92      0.95      0.93      2464
+         Vi tinh       0.94      0.94      0.94      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.91      0.91      0.91     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.82      0.75      0.78       364
+      Kinh doanh       0.84      0.87      0.85       511
+       Phap luat       0.92      0.91      0.91       774
+        Suc khoe       0.91      0.92      0.91       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.88      0.93      0.90       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 11, max_df = 0.25, alpha = 0.05, train_acc = 0.9185305880610279, valid_acc = 0.8879348630643967, training_time = 0.045153141021728516
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.86      0.86      0.86      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.91      0.85      0.88      1456
+      Kinh doanh       0.87      0.91      0.89      2041
+       Phap luat       0.93      0.94      0.94      3094
+        Suc khoe       0.92      0.95      0.93      2707
+        The gioi       0.94      0.91      0.93      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.92      0.95      0.93      2464
+         Vi tinh       0.95      0.94      0.95      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.82      0.77      0.79       364
+      Kinh doanh       0.84      0.87      0.85       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.92      0.92      0.92       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.95      0.97      1060
+         Van hoa       0.88      0.93      0.90       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 12, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9184194934083839, valid_acc = 0.8877868245743893, training_time = 0.0429072380065918
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.86      0.85      0.86      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.90      0.85      0.88      1456
+      Kinh doanh       0.87      0.91      0.89      2041
+       Phap luat       0.93      0.94      0.94      3094
+        Suc khoe       0.92      0.95      0.93      2707
+        The gioi       0.94      0.92      0.93      2318
+        The thao       1.00      0.95      0.98      4238
+         Van hoa       0.92      0.95      0.93      2464
+         Vi tinh       0.95      0.94      0.95      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.82      0.88      0.85       632
+        Khoa hoc       0.81      0.77      0.79       364
+      Kinh doanh       0.84      0.87      0.86       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.91      0.91       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.95      0.97      1060
+         Van hoa       0.88      0.93      0.90       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 13, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9173826099837061, valid_acc = 0.8873427091043672, training_time = 0.0449221134185791
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.86      0.85      0.86      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.90      0.85      0.88      1456
+      Kinh doanh       0.87      0.90      0.89      2041
+       Phap luat       0.93      0.94      0.93      3094
+        Suc khoe       0.92      0.95      0.93      2707
+        The gioi       0.94      0.91      0.93      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.92      0.95      0.93      2464
+         Vi tinh       0.95      0.94      0.94      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.82      0.88      0.85       632
+        Khoa hoc       0.81      0.77      0.79       364
+      Kinh doanh       0.84      0.87      0.85       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.92      0.92      0.92       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.88      0.93      0.90       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 14, max_df = 0.15000000000000002, alpha = 0.05, train_acc = 0.9170863575766554, valid_acc = 0.8879348630643967, training_time = 0.04259800910949707
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.86      0.85      0.86      4175
+        Doi song       0.87      0.91      0.89      2527
+        Khoa hoc       0.90      0.85      0.87      1456
+      Kinh doanh       0.87      0.90      0.89      2041
+       Phap luat       0.93      0.94      0.93      3094
+        Suc khoe       0.92      0.95      0.93      2707
+        The gioi       0.94      0.91      0.93      2318
+        The thao       1.00      0.95      0.98      4238
+         Van hoa       0.91      0.95      0.93      2464
+         Vi tinh       0.95      0.94      0.94      1984
+
+        accuracy                           0.92     27004
+       macro avg       0.92      0.92      0.92     27004
+    weighted avg       0.92      0.92      0.92     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.81      0.77      0.79       364
+      Kinh doanh       0.84      0.86      0.85       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.91      0.91       677
+        The gioi       0.91      0.91      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.88      0.93      0.91       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 15, max_df = 0.25, alpha = 0.1, train_acc = 0.912087098207673, valid_acc = 0.8870466321243523, training_time = 0.04276633262634277
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.85      0.85      0.85      4175
+        Doi song       0.87      0.90      0.88      2527
+        Khoa hoc       0.90      0.83      0.86      1456
+      Kinh doanh       0.86      0.90      0.88      2041
+       Phap luat       0.92      0.94      0.93      3094
+        Suc khoe       0.91      0.94      0.93      2707
+        The gioi       0.94      0.91      0.92      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.91      0.95      0.93      2464
+         Vi tinh       0.94      0.93      0.94      1984
+
+        accuracy                           0.91     27004
+       macro avg       0.91      0.91      0.91     27004
+    weighted avg       0.91      0.91      0.91     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.82      0.88      0.85       632
+        Khoa hoc       0.82      0.77      0.79       364
+      Kinh doanh       0.83      0.86      0.85       511
+       Phap luat       0.92      0.91      0.91       774
+        Suc khoe       0.91      0.92      0.91       677
+        The gioi       0.91      0.90      0.91       580
+        The thao       1.00      0.95      0.97      1060
+         Van hoa       0.88      0.93      0.91       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 16, max_df = 0.2, alpha = 0.1, train_acc = 0.9118278773515035, valid_acc = 0.8874907475943745, training_time = 0.04224038124084473
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.85      0.84      0.85      4175
+        Doi song       0.87      0.90      0.88      2527
+        Khoa hoc       0.90      0.83      0.86      1456
+      Kinh doanh       0.86      0.90      0.88      2041
+       Phap luat       0.92      0.94      0.93      3094
+        Suc khoe       0.92      0.94      0.93      2707
+        The gioi       0.94      0.91      0.92      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.91      0.95      0.93      2464
+         Vi tinh       0.94      0.93      0.94      1984
+
+        accuracy                           0.91     27004
+       macro avg       0.91      0.91      0.91     27004
+    weighted avg       0.91      0.91      0.91     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.82      0.77      0.79       364
+      Kinh doanh       0.83      0.86      0.85       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.91       677
+        The gioi       0.92      0.90      0.91       580
+        The thao       1.00      0.95      0.97      1060
+         Van hoa       0.88      0.93      0.91       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 17, max_df = 0.2, alpha = 0.1, train_acc = 0.9111613094356391, valid_acc = 0.8877868245743893, training_time = 0.04105210304260254
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.85      0.84      0.85      4175
+        Doi song       0.87      0.90      0.88      2527
+        Khoa hoc       0.90      0.83      0.86      1456
+      Kinh doanh       0.86      0.90      0.88      2041
+       Phap luat       0.92      0.94      0.93      3094
+        Suc khoe       0.91      0.94      0.93      2707
+        The gioi       0.94      0.91      0.92      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.91      0.95      0.93      2464
+         Vi tinh       0.94      0.93      0.94      1984
+
+        accuracy                           0.91     27004
+       macro avg       0.91      0.91      0.91     27004
+    weighted avg       0.91      0.91      0.91     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.82      0.77      0.79       364
+      Kinh doanh       0.83      0.86      0.85       511
+       Phap luat       0.92      0.91      0.91       774
+        Suc khoe       0.91      0.92      0.91       677
+        The gioi       0.92      0.90      0.91       580
+        The thao       1.00      0.95      0.97      1060
+         Van hoa       0.88      0.93      0.91       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 18, max_df = 0.15000000000000002, alpha = 0.1, train_acc = 0.9110872463338765, valid_acc = 0.8873427091043672, training_time = 0.04110884666442871
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.85      0.84      0.85      4175
+        Doi song       0.86      0.90      0.88      2527
+        Khoa hoc       0.90      0.83      0.86      1456
+      Kinh doanh       0.87      0.90      0.88      2041
+       Phap luat       0.92      0.94      0.93      3094
+        Suc khoe       0.91      0.94      0.93      2707
+        The gioi       0.94      0.91      0.92      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.91      0.94      0.93      2464
+         Vi tinh       0.94      0.94      0.94      1984
+
+        accuracy                           0.91     27004
+       macro avg       0.91      0.91      0.91     27004
+    weighted avg       0.91      0.91      0.91     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.80      0.80      1044
+        Doi song       0.83      0.88      0.85       632
+        Khoa hoc       0.82      0.76      0.79       364
+      Kinh doanh       0.84      0.86      0.85       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.91       677
+        The gioi       0.91      0.90      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.88      0.93      0.90       616
+         Vi tinh       0.94      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 19, max_df = 0.1, alpha = 0.15000000000000002, train_acc = 0.9093097318915716, valid_acc = 0.887638786084382, training_time = 0.04694628715515137
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.85      0.84      0.84      4175
+        Doi song       0.86      0.90      0.88      2527
+        Khoa hoc       0.90      0.82      0.85      1456
+      Kinh doanh       0.86      0.89      0.88      2041
+       Phap luat       0.92      0.94      0.93      3094
+        Suc khoe       0.91      0.95      0.93      2707
+        The gioi       0.94      0.90      0.92      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.90      0.94      0.92      2464
+         Vi tinh       0.94      0.93      0.94      1984
+
+        accuracy                           0.91     27004
+       macro avg       0.91      0.91      0.91     27004
+    weighted avg       0.91      0.91      0.91     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.81      0.80      0.80      1044
+        Doi song       0.83      0.88      0.86       632
+        Khoa hoc       0.82      0.75      0.78       364
+      Kinh doanh       0.84      0.87      0.85       511
+       Phap luat       0.91      0.90      0.90       774
+        Suc khoe       0.90      0.93      0.91       677
+        The gioi       0.92      0.90      0.91       580
+        The thao       1.00      0.96      0.98      1060
+         Van hoa       0.87      0.93      0.90       616
+         Vi tinh       0.94      0.92      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
+* min_df = 20, max_df = 0.2, alpha = 0.1, train_acc = 0.9099022367056733, valid_acc = 0.8879348630643967, training_time = 0.04312396049499512
+- Train evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.85      0.84      0.85      4175
+        Doi song       0.86      0.90      0.88      2527
+        Khoa hoc       0.90      0.83      0.86      1456
+      Kinh doanh       0.86      0.90      0.88      2041
+       Phap luat       0.92      0.94      0.93      3094
+        Suc khoe       0.91      0.94      0.93      2707
+        The gioi       0.94      0.90      0.92      2318
+        The thao       1.00      0.95      0.97      4238
+         Van hoa       0.90      0.94      0.92      2464
+         Vi tinh       0.94      0.93      0.94      1984
+
+        accuracy                           0.91     27004
+       macro avg       0.91      0.91      0.91     27004
+    weighted avg       0.91      0.91      0.91     27004
+- Valid evaluation
+                  precision    recall  f1-score   support
+
+Chinh tri Xa hoi       0.80      0.81      0.80      1044
+        Doi song       0.83      0.88      0.86       632
+        Khoa hoc       0.82      0.77      0.79       364
+      Kinh doanh       0.84      0.86      0.85       511
+       Phap luat       0.92      0.90      0.91       774
+        Suc khoe       0.91      0.92      0.91       677
+        The gioi       0.91      0.90      0.91       580
+        The thao       1.00      0.95      0.97      1060
+         Van hoa       0.88      0.93      0.90       616
+         Vi tinh       0.95      0.91      0.93       497
+
+        accuracy                           0.89      6755
+       macro avg       0.88      0.88      0.88      6755
+    weighted avg       0.89      0.89      0.89      6755
