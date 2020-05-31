@@ -13,8 +13,8 @@
                 nltk.download('punkt')
                 ```
                 
-        - nếu muốn chạy file demo_web: install thêm streamlit:
-            - ```pip install streamlit```
+        - nếu muốn chạy file demo_web: install thêm streamlit và urllib:
+            - ```pip install streamlit urllib ```
             
 2. Chạy demo
 - demo trên console:
